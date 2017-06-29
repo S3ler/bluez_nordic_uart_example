@@ -502,7 +502,8 @@ def main():
 
     user_input_thread = threading.Thread(target=send_user_input, args=(nus_service,))
     user_input_thread.start()
-    user_input_thread.
+
+
     mainloop.run()
 
 
