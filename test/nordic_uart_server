@@ -459,6 +459,14 @@ def send_user_input(nus_service):
             print("too long or internal error")
 
 def main():
+    import os
+    print os.name
+    import platform
+    print platform.system()
+    print platform.release()
+    print platform.python_implementation() # need to be CPython!
+
+
     global mainloop
 
     dbus.mainloop.glib.DBusGMainLoop(set_as_default=True)
